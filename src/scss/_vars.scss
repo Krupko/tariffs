@@ -1,0 +1,28 @@
+/*? ======= ПЕРЕМЕННЫЕ ПРОЕКТА НАЧАЛО ======= */
+// colors
+:root {
+  // base
+  --font-family: "Inter", sans-serif;
+  --content-width: 1215px;
+  --container-offset: 10px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --color-white: #fff;
+  --color-black: #1d252b;
+  --color-grin: #386641;
+  --color-light-grin: #6a994e;
+  --color-red: #bc4749;
+  --color-gradient: linear-gradient(180deg, rgba(52, 93, 60, 1), rgba(33, 45, 46, 1));
+  // --color-gradient: radial-gradient(158.02% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.19) 83.33%, #000 100%);
+  --color-shadow-grin: rgba(0, 0, 0, 0.25);
+  --color-shadow-black: rgba(0, 0, 0, 0.15);
+
+  //radius
+  --radius7: 7px;
+  --radius12: 12px;
+
+  //box-shadow
+  --box-shadow: 0px 3.8px 94.7px 0px;
+}
+/*? ======= ПЕРЕМЕННЫЕ ПРОЕКТА КОНЕЦ ======= */
